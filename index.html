@@ -18,6 +18,7 @@
 	<script type="text/javascript" language="javascript" class="init">
 	$(document).ready(function(){
 		$('#example').dataTable({
+			"dom": 'frtip',
 			initComplete : function() {
 				var input = $('.dataTables_filter input').unbind(),
 					self = this.api(),
@@ -40,7 +41,7 @@
 </head>
 <body class="bg-light">
 	<div class="container">
-			<h1 class="text-primary text-center">DataTables example</h1>
+			<h3 class="text-center">JustGinos</h3>
 		
 			<table id="example" cellspacing="10" width="100%">
 				<thead>
