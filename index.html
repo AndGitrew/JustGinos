@@ -27,7 +27,9 @@
 	<script type="text/javascript" language="javascript" class="init">
 	$(document).ready(function(){
 		$('#example').dataTable({
-			"dom": 'ft',
+			"paging":   false,
+        		"ordering": false,
+        		"info":     false,
 			initComplete : function() {
 				var input = $('.dataTables_filter input').unbind(),
 					self = this.api(),
