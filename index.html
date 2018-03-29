@@ -27,7 +27,7 @@
 	<script type="text/javascript" language="javascript" class="init">
 	$(document).ready(function(){
 		$('#example').dataTable({
-			"paging":   false,
+			"paging":   true,
         		"ordering": false,
         		"info":     false,
 			initComplete : function() {
@@ -54,13 +54,13 @@
 	<div style='width: 100%;'>
 			<h3 class="text-center">JustGinos</h3>
 		
-			<table id="example" cellspacing="0" width="100%">
-				<thead display="none">
+			<table id="example" cellspacing="10" width="100%">
+				<thead style='display: none;'>
 					<tr>
 						<th>Video</th>
 					</tr>
 				</thead>
-				<tfoot display="none">
+				<tfoot style='display: none;'>
 					<tr>
 						<th>Video</th>
 					</tr>
